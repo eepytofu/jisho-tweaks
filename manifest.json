@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Jisho Tweaks",
+  "version": "0.1.0",
+  "description": "indo translation and some customization stuff i guess.",
+  "permissions": ["storage", "tabs"],
+  "host_permissions": [
+    "https://jisho.org/*",
+    "https://translate.googleapis.com/*"
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://jisho.org/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_title": "Jisho Tweaks",
+    "default_popup": "popup.html"
+  }
+}

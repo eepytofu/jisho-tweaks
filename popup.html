@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #ffffff;
+        --fg: #0f172a;
+        --muted: #475569;
+        --border: #d9dde5;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #111827;
+          --fg: #e5e7eb;
+          --muted: #9ca3af;
+          --border: #1f2937;
+        }
+      }
+      body {
+        font-family: "Inter", system-ui, -apple-system, sans-serif;
+        background: var(--bg);
+        color: var(--fg);
+        min-width: 260px;
+        padding: 12px 12px 16px;
+      }
+      h3 { margin: 0 0 10px; font-size: 16px; }
+      fieldset { border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px; margin: 0 0 10px; }
+      legend { padding: 0 6px; color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; }
+      label { display: flex; gap: 8px; align-items: center; margin: 6px 0; font-size: 14px; }
+      .sublabel { padding-left: 22px; font-size: 13px; color: var(--muted); }
+      .row-line { display: flex; align-items: center; gap: 8px; margin: 6px 0; font-size: 13px; }
+      button { font-size: 13px; }
+      #cacheStatus { margin-top: 4px; font-size: 12px; color: var(--muted); }
+    </style>
+  </head>
+  <body>
+    <h3>Jisho Tweaks</h3>
+
+    <fieldset>
+      <legend>Translation</legend>
+      <label><input type="checkbox" id="translate" /> Translate EN to ID</label>
+      <div class="row-line">
+        <button id="clearCacheBtn" type="button">Clear translation cache</button>
+      </div>
+      <div id="cacheStatus"></div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Display</legend>
+      <label><input type="checkbox" id="hideOtherLangs" /> Hide non-English meanings</label>
+
+      <label><input type="checkbox" id="moveReadings" /> Move readings to the top (below On)</label>
+      <div class="sublabel">When moving, include:</div>
+      <label class="sublabel"><input type="checkbox" id="includeNanori" /> Nanori (Japanese names)</label>
+      <label class="sublabel"><input type="checkbox" id="includePinyin" /> Mandarin Chinese (pinyin)</label>
+      <label class="sublabel"><input type="checkbox" id="includeKorean" /> Korean</label>
+      <label><input type="checkbox" id="includeUnicode" /> Add Unicode codepoint below Variants/Parts</label>
+    </fieldset>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
