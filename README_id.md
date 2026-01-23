@@ -32,7 +32,6 @@ Ekstensi Chrome (Manifest v3) untuk jisho.org yang menambahkan terjemahan bahasa
 ## Permissions
 
 * `storage`
-* `tabs`
 * `host_permissions`:
 
   * `https://jisho.org/*`
@@ -40,5 +39,5 @@ Ekstensi Chrome (Manifest v3) untuk jisho.org yang menambahkan terjemahan bahasa
 
 ## Catatan
 
-* Menggunakan endpoint publik Google Translate (gtx). Jika gagal, teks asli tetap ditampilkan.
+* Menggunakan endpoint publik Google Translate (gtx). Jika gagal, teks asli tetap ditampilkan tanpa terjemahan tambahan.
 * Dilisensikan di bawah GNU GPL v3.0.

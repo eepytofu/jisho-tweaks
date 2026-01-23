@@ -32,7 +32,6 @@ Chrome extension (Manifest v3) for jisho.org that adds Indonesian translations a
 ## Permissions
 
 * `storage`
-* `tabs`
 * `host_permissions`:
 
   * `https://jisho.org/*`
@@ -40,5 +39,5 @@ Chrome extension (Manifest v3) for jisho.org that adds Indonesian translations a
 
 ## Notes
 
-* Uses the public Google Translate (gtx) endpoint. If a request fails, the original text is left unchanged.
-* Mainly for personal use. Provided as-is, without any warranty. Licensed under the GNU General Public License v3.0.
+* Uses the public Google Translate (gtx) endpoint. If a request fails, the original English text remains and no translation is added.
+* Mainly for personal use. Provided as-is without any warranty. Licensed under the GNU General Public License v3.0.

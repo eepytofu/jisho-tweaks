@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
   "name": "Jisho Tweaks",
-  "version": "0.1.0",
-  "description": "indo translation and some customization stuff i guess.",
-  "permissions": ["storage", "tabs"],
+  "version": "1.0.0",
+  "description": "Extension for jisho.org that adds Indonesian translations and a few layout improvements.",
+  "permissions": ["storage"],
   "host_permissions": [
     "https://jisho.org/*",
     "https://translate.googleapis.com/*"

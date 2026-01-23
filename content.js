@@ -360,7 +360,6 @@ async function translateGlosses(root) {
   }
 }
 
-// uuh grey area i guess
 async function translateEnToId(text) {
   const cached = getCached(text);
   if (cached) return cached;
