@@ -13,8 +13,11 @@ Chrome extension (Manifest v3) for jisho.org that adds Indonesian translations a
 * Stores translation results in `localStorage`.
 * Translation text color follows Jisho's light or dark mode.
 
-## Install (developer mode)
+## Install
 
+### [Chrome Web Store](https://chromewebstore.google.com/detail/jisho-tweaks/ilmdijfkkpaibfnpegddbgpkloanogfk)
+
+### Developer mode (for advanced users)
 1. Download or clone this repository.
 2. Open `chrome://extensions`.
 3. Enable **Developer mode** (top right).
@@ -40,4 +43,5 @@ Chrome extension (Manifest v3) for jisho.org that adds Indonesian translations a
 ## Notes
 
 * Uses the public Google Translate (gtx) endpoint. If a request fails, the original English text remains and no translation is added.
+  * Translations are for reference only, machine translation may miss nuances or context.
 * Mainly for personal use. Provided as-is without any warranty. Licensed under the GNU General Public License v3.0.

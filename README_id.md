@@ -13,8 +13,11 @@ Ekstensi Chrome (Manifest v3) untuk jisho.org yang menambahkan terjemahan bahasa
 * Menyimpan hasil terjemahan di `localStorage`.
 * Warna teks terjemahan menyesuaikan dengan mode terang atau gelap Jisho.
 
-## Instalasi (developer mode)
+## Instalasi
 
+### [Chrome Web Store](https://chromewebstore.google.com/detail/jisho-tweaks/ilmdijfkkpaibfnpegddbgpkloanogfk)
+
+### Developer mode (Untuk pengguna tingkat lanjut)
 1. Unduh atau clone repositori ini.
 2. Buka `chrome://extensions`.
 3. Aktifkan **Developer mode** (pojok kanan atas).
@@ -40,4 +43,5 @@ Ekstensi Chrome (Manifest v3) untuk jisho.org yang menambahkan terjemahan bahasa
 ## Catatan
 
 * Menggunakan endpoint publik Google Translate (gtx). Jika gagal, teks asli tetap ditampilkan tanpa terjemahan tambahan.
+  * Terjemahan hanya untuk referensi, terjemahan mesin bisa melewatkan nuansa atau konteks.
 * Dilisensikan di bawah GNU GPL v3.0.
