@@ -1,3 +1,7 @@
+# Archival Note
+This project is no longer maintained since I've switched to Yomitan.
+
+
 # <img src="icons/icon128.png" alt="Jisho Tweaks icon" width="40" height="40" style="vertical-align: text-bottom; margin-right: 8px;" /> Jisho Tweaks
 
 English | [Bahasa Indonesia](./README_id.md)
